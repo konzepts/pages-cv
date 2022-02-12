@@ -3,10 +3,14 @@ View the live demo [here](https://konzepts.github.io/pages-cv/).
 <table>
   <tr>
     <th>Desktop</th>
+    <th>Mobile</th>
   </tr>
   <tr>
     <td>
         <img src="https://github.com/konzepts/pages-cv/blob/main/assets/images/desktop.png?raw=true" width="600"/>
+    </td>
+     <td>
+        <img src="https://github.com/konzepts/pages-cv/blob/main/assets/images/mobile.png?raw=true" width="250"/>
     </td>
   </tr>
 </table>
@@ -21,11 +25,11 @@ Your cv will then be viewable immediately at <https://yourgithubusername.github.
 
 
 ## Installation
-## Using Live CV on GitHub Pages
+## Using Pages CV on GitHub Pages
 
 Follow these steps if you already have GitHub Pages setup and enabled from the root pages repository.
 
-### 1. Fork Live CV to your User Repository
+### 1. Fork Pages CV to your User Repository
 
 * [Fork](https://github.com/konzepts/pages-cv/fork) the repository
 * Delete the `gh-pages` branch
