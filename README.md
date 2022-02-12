@@ -21,11 +21,11 @@ Your cv will then be viewable immediately at <https://yourgithubusername.github.
 
 
 ## Installation
-## Using Live CV on GitHub Pages
+## Using Pages CV on GitHub Pages
 
 Follow these steps if you already have GitHub Pages setup and enabled from the root pages repository.
 
-### 1. Fork Live CV to your User Repository
+### 1. Fork Pages CV to your User Repository
 
 * [Fork](https://github.com/konzepts/pages-cv/fork) the repository
 * Delete the `gh-pages` branch
