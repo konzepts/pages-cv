@@ -1151,7 +1151,7 @@
 
       var target = $(selector)[0];
 
-      if (!target || !$(target).hasClass(ClassName$2.CAROUSEL)) {
+      if (!target || !$.find(target).hasClass(ClassName$2.CAROUSEL)) {
         return;
       }
 
