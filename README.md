@@ -6,7 +6,7 @@ View the live demo [here](https://konzepts.github.io/pages-cv/).
   </tr>
   <tr>
     <td>
-        <img src="https://github.com/konzepts/pages-cv/tree/main/assets/images/desktop.png?raw=true" width="600"/>
+        <img src="https://github.com/konzepts/pages-cv/blob/main/assets/images/desktop.png?raw=true" width="600"/>
     </td>
   </tr>
 </table>
