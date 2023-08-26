@@ -15,6 +15,25 @@ $(document).ready(function(){
     }
 });
 
+document.getElementById('downloadPdf').addEventListener('click', function() {
+    var opt = {
+        margin:       10,
+        filename:     'myfile.pdf',
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { scale: 2 },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    // New Promise-based usage:
+    html2pdf().from(document.body).set(opt).outputPdf().then(function(pdf) {
+        var blob = new Blob([pdf], {type: 'application/pdf'});
+        var link = document.createElement('a');
+        link.href = window.URL.createObjectURL(blob);
+        link.download = 'myfile.pdf';
+        link.click();
+    });
+});
+
 $(window).resize(
     function() {
         if ($('.hover-box').length) {
